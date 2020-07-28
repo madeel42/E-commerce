@@ -55,3 +55,11 @@
 
     }
     }
+    @media only screen and (max-width:580px){
+    .productContent {
+        /* background: antiquewhite; */
+        width: 100%;
+        height: auto;
+        margin-bottom: 81px;
+    }
+}

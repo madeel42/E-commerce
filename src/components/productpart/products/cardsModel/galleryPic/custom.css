@@ -64,7 +64,7 @@
   width: 58px;
   height: 61px;
   margin-left: 12px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   cursor: pointer;
 }
 .active .imgDiv{
@@ -75,10 +75,26 @@
 }
 @media (max-width: 767px){
   .react-multi-carousel-dot-list {
-    position: absolute;
+    position: relative;
     bottom: 0;
     height: 10vh;
-    /* background-color: blueviolet; */
+   
+    /* color: blueviolet; */
+    
+    display: flex;
+    /* background: antiquewhite; */
+    background-color: #fff;
+    
+    justify-content: center;
+
+    padding: 0;
+    
+    list-style: none;
+    text-align: center;
+    /* position: absolute;
+    bottom: 0;
+    height: 10vh;
+    
     display: flex;
     left: 0;
     top: 284px;
@@ -88,7 +104,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    text-align: center;
+    text-align: center; */
 }
 .carousel-item {
   height: 35vh !important;
@@ -97,7 +113,7 @@
   width: 46px;
   height: 53px;
   margin-left: 12px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   cursor: pointer;
 }
 }
