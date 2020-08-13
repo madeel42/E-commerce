@@ -20,7 +20,7 @@ const DrawerComponent = (props) => {
   } = props;
   console.log(counter);
 
-  const [visible, setVisible] = useState(false);
+  // const [visible, setVisible] = useState(false);
 
   const showDrawer = () => {
     setVisible(true);
