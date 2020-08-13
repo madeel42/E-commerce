@@ -25,7 +25,7 @@ const Products = () => {
   // };
   return (
     <div className={classes.productContent}>
-      <CardComponent cardToShow={data} setcardToShow={setcardToShow} visibleitem={next} />
+      <CardComponent cardToShow={data}  visibleitem={next} />
       <div className={classes.loadMoreBtnDiv}>
         <button className={` ${next >= data.length ? classes.hideBtn : classes.loadMoreBtn}`} onClick={handleShowMorePosts}>
           {/* onClick={handleShowMorePosts} */}

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { Drawer, Button } from "antd";
 import classes from "./drawer.module.css";
 // import img1 from "./../productpart/assets/img1.jpg";
@@ -20,7 +20,7 @@ const DrawerComponent = (props) => {
   } = props;
   console.log(counter);
 
-  // const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(false);
 
   const showDrawer = () => {
     setVisible(true);
