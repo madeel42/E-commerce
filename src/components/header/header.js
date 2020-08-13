@@ -6,7 +6,7 @@ const Header = () => {
   const search = useContext(SearchContext)
   return (
     <div className={classes.contentDiv}>
-      <h1>Shop your</h1>
+      <h1>Shop your designer dresses</h1>
       <p>
         Ready to wear dresses tailored for you from online. Hurry up while stock
         lasts.
