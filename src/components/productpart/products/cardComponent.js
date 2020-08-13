@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Card } from "antd";
 import "antd/dist/antd.css";
 import cardComclasses from "./cardsCom.module.css";
@@ -6,10 +6,10 @@ import "./cardsCustom.css";
 import ModelComponent from "./cardsModel/cardsModel";
 import DrawerCom from "../../Drawer/drawer";
 import { ReactComponent as Cart } from "./cart/cartasset/cart-minus.svg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import classes from "./products.module.css";
 import { useState } from "react";
-import Item from "antd/lib/list/Item";
+// import Item from "antd/lib/list/Item";
 import {SearchContext} from './../../header/useContext'
 import { useContext } from "react";
 const { Meta } = Card;
@@ -23,7 +23,7 @@ const CardComponent = (props) => {
   const [itemNumber, setitemNumber] = useState();
   const [isActive, setisActive] = useState([]);
   const [draweritem, setDraweritem] = useState([]);
-  const { cardToShow, visibleitem, setcardToShow } = props;
+  const { cardToShow, visibleitem } = props;
   console.log(search,"usecontext")
 console.log(drawercallback)
   const showModal = (item,index) => {
@@ -59,7 +59,7 @@ console.log(drawercallback)
 
   const Draweritem = (item, index) => {
     let fullarr = [...draweritem];
-    let existingItem = fullarr.find((cartItem) => cartItem.id == item.id);
+    let existingItem = fullarr.find((cartItem) => cartItem.id === item.id);
     console.log(existingItem);
     if (existingItem) {
       existingItem.counter += 1; //update item
@@ -84,7 +84,7 @@ console.log(drawercallback)
   const decrementFun = (mainitem, index) => {
     console.log(mainitem.id)
     let fullarr = [...draweritem];
-    let existingItem = fullarr.find((cartItem) => cartItem.id == mainitem.id);
+    let existingItem = fullarr.find((cartItem) => cartItem.id === mainitem.id);
     console.log(existingItem);
     // let a = existingItem.counter > 1 ? existingItem.counter -1   : existingItem.counter;
     if (existingItem) {
@@ -104,7 +104,7 @@ console.log(drawercallback)
     // console.log(newCounters)
     // setcardToShow({cardToShow:newCounters})
     // let e = existingItem.counter == 1 ? existingItem.counter : existingItem.counter;
-    if (mainitem.counter == 0 && existingItem.counter == 0) {
+    if (mainitem.counter === 0 && existingItem.counter === 0) {
       
        let r = [...isActive];
       r[ mainitem.id ] = false;

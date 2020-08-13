@@ -25,8 +25,7 @@ const array = [
     title: "Magnetic Designs Women Printed Fit And Flare Dress",
     price: "5$",
     description:
-      "Mauve printed knitted fit and flare dress,\
-       has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+      "Mauve sxsxmskxmsk knitted fit and flare dress, has a round neck, three sleeves, concealed zip closure",
   },
   {
     id: 1,
@@ -38,8 +37,7 @@ const array = [
     title: "Magnetic Designs Women Printed Fit And Flare Dress",
     price: "5$",
     description:
-      "Mauve printed knitted fit and flare dress,\
-       has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+      "Mauve printed knitted fit and flare dress,has a round neck",
   },
   {
     id: 2,
@@ -51,8 +49,7 @@ const array = [
     title: "Flounce High Low Plain Midi Skirt",
     price: "9$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and flare dress, has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 3,
@@ -64,8 +61,7 @@ const array = [
     title: "Forever 21 Solid Bodycon Midi Dress",
     price: "5$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 4,
@@ -77,8 +73,7 @@ const array = [
     title: "Basic Hollow Out Flared Midi Skirt",
     price: "9$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and flare has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 5,
@@ -90,8 +85,7 @@ const array = [
     title: "Charming Red Flared Midi Skirt",
     price: "3$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 6,
@@ -103,8 +97,7 @@ const array = [
     title: "Notch Lapel Single Button Color Block Blazer",
     price: "6$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and flare  has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 7,
@@ -116,8 +109,7 @@ const array = [
     title: "Lapel Zips Plain Long Sleeve Jackets",
     price: "5$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and flare  has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 8,
@@ -129,8 +121,7 @@ const array = [
     title: "Basic Hollow Out Flared Midi Skirt",
     price: "9$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and fl has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 9,
@@ -142,8 +133,7 @@ const array = [
     title: "Basic Hollow Out Flared Midi Skirt",
     price: "5$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fi has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 10,
@@ -155,8 +145,7 @@ const array = [
     title: "Cowl Neck Kangaroo Pocket Color Block Hoodie",
     price: "6$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and flhas a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 11,
@@ -168,8 +157,7 @@ const array = [
     title: "Notch Lapel Single Button Color Block Blazer",
     price: "5$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit andhas a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 12,
@@ -181,8 +169,7 @@ const array = [
     title: "Lapel Zips Plain Long Sleeve Jackets",
     price: "9$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and flarhas a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 13,
@@ -194,8 +181,7 @@ const array = [
     title: "Basic Hollow Out Flared Midi Skirt",
     price: "5$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit andhas a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 14,
@@ -207,8 +193,7 @@ const array = [
     title: "Basic Hollow Out Flared Midi Skirt",
     price: "2$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 15,
@@ -220,8 +205,7 @@ const array = [
     title: "Cowl Neck Kangaroo Pocket Color Block Hoodie",
     price: "8$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit ahas a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 16,
@@ -233,8 +217,7 @@ const array = [
     title: "Notch Lapel Single Button Color Block Blazer",
     price: "9$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and flare drehas a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 17,
@@ -246,8 +229,7 @@ const array = [
     title: "Lapel Zips Plain Long Sleeve Jackets",
     price: "5$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and flare d has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 18,
@@ -259,8 +241,7 @@ const array = [
     title: "Basic Hollow Out Flared Midi Skirt",
     price: "7$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and flare drhas a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 19,
@@ -272,8 +253,7 @@ const array = [
     title: "Basic Hollow Out Flared Midi Skirt",
     price: "5$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
   },
   {
     id: 20,
@@ -285,8 +265,7 @@ const array = [
     title: "Cowl Neck Kangaroo Pocket Color Block Hoodie",
     price: "9$",
     description:
-    "Mauve printed knitted fit and flare dress,\
-     has a round neck, three-quarter sleeves, concealed zip closure,, flared hem",
+    "Mauve printed knitted fit and f has a round neck, threes, concealed zip closure,, flared hem",
   },
 ];
 export default array;

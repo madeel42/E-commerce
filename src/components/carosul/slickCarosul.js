@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import freeDelivey from './assets/freeDelivey.png'
-import giftVoucher from './assets/giftVoucher.jpg'
+// import giftVoucher from './assets/giftVoucher.jpg'
 import classes from './slick.module.css'
 import './slickcustom.css'
 

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 // import "./styles.css";
-import { ArrowRightOutlined,ArrowLeftOutlined,MinusOutlined  } from '@ant-design/icons';
+import { ArrowRightOutlined,ArrowLeftOutlined  } from '@ant-design/icons';
 import 'antd/dist/antd.css';
 import "./custom.css"
 // import ArrowForwardIcon from "@material-ui/icons/ArrowForward";

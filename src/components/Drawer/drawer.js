@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Drawer, Button } from "antd";
 import classes from "./drawer.module.css";
-import img1 from "./../productpart/assets/img1.jpg";
+// import img1 from "./../productpart/assets/img1.jpg";
 import "./drawerCustom.css";
 import { ReactComponent as Bag } from "./assets/bag.svg";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 const DrawerComponent = (props) => {
   const {
     draweritem,
@@ -14,10 +14,6 @@ const DrawerComponent = (props) => {
     counter,
     setisActive,
     isActive,
-    mainIndex,
-    incrementFun,
-    setcounter,
-    incre,
     Draweritem,
     decrementFun,
     setdrawercallback,
@@ -35,7 +31,7 @@ const DrawerComponent = (props) => {
   const itemDel = (item, itemIndex) => {
     console.log(itemIndex, " drwer itemIndex");
     let fullarr = [...draweritem];
-    let existingItem = fullarr.find((cartItem) => cartItem.id == item.id);
+    let existingItem = fullarr.find((cartItem) => cartItem.id === item.id);
     // let v = existingItem  ?( existingItem.counter == 1 ) : ""
     if(existingItem){
       existingItem.counter = 1
@@ -69,8 +65,8 @@ const DrawerComponent = (props) => {
   // console.log(newCount)
   // }
 
-  const decrement = (item, itemIndex) => {
-    console.log(counter);
+  // const decrement = (item, itemIndex) => {
+  //   console.log(counter);
     // let counterdcrement = item.counter ? item.counter : "";
     // let c = counterdcrement > 1 ? counterdcrement - 1 : counterdcrement
     // setcounter(c);
@@ -91,7 +87,7 @@ const DrawerComponent = (props) => {
     //   setitemNumber(itemNumberDeccrement);
     //   setDraweritem(filterItem);
     // }
-  };
+  // };
 const total = draweritem ? draweritem.reduce((pre,cur)=>{
   return console.log(pre,"pre" , cur,"curr" ) || pre + (cur.counter * parseInt(cur.price))
 },0):""

@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import classes from "./products.module.css";
 import CardComponent from "./cardComponent";
 import data from "./data";
 import { useState } from "react";
-const cardperShow = 10;
-let arrayForHoldingCards = [];
+// const cardperShow = 10;
+// let arrayForHoldingCards = [];
 const Products = () => {
-  const [cardToShow, setcardToShow] = useState([]);
+  // const [cardToShow, setcardToShow] = useState([]);
   const [next, setnext] = useState(15);
   // const loopWithSlice = (start, end) => {
   //   const sliceCard = data.slice(start, end);

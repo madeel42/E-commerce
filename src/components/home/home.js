@@ -4,7 +4,7 @@ import Header from "../header/header";
 import classes from "./home.module.css";
 import Carosul from "./../carosul/slickCarosul";
 import MainProducts from "./../productpart/productsmain";
-import DrawerCom from '../Drawer/drawer'
+// import DrawerCom from '../Drawer/drawer'
 const Home = () => {
   return (
       <div className={classes.mainDivWrapper}>
