@@ -10,8 +10,11 @@ import { Link } from "react-router-dom";
 import classes from "./products.module.css";
 import { useState } from "react";
 import Item from "antd/lib/list/Item";
+import {SearchContext} from './../../header/useContext'
+import { useContext } from "react";
 const { Meta } = Card;
 const CardComponent = (props) => {
+  const search = useContext(SearchContext)
   const [visible, setvisible] = useState(false);
   const [modelItemIndex, setmodelItemIndex] = useState();
   const [drawercallback,setdrawercallback] = useState()
@@ -21,6 +24,7 @@ const CardComponent = (props) => {
   const [isActive, setisActive] = useState([]);
   const [draweritem, setDraweritem] = useState([]);
   const { cardToShow, visibleitem, setcardToShow } = props;
+  console.log(search,"usecontext")
 console.log(drawercallback)
   const showModal = (item,index) => {
     setvisible(true);
@@ -129,10 +133,23 @@ console.log(drawercallback)
   console.log(isActive,"isActive")
 
   console.log(isActive, "ddc");
-
+  const filterForEveryOne = (item) => {
+    console.log(item)
+    
+    return item.filter((object)=>{
+      const checkField = object.title.toLowerCase()
+      const filteredField = search.searchProduct.toLowerCase();
+      return checkField.includes(filteredField) 
+    })
+  }
+let filterArray = [];
+if(cardToShow && cardToShow.length > 0){
+  filterArray = filterForEveryOne(cardToShow)
+}
   return (
     <div className={classes.productList}>
-      {cardToShow.slice(0, visibleitem).map((item, index) => {
+      {/* <h1>{search.search}</h1> */}
+      {filterArray.slice(0, visibleitem).map((item, index) => {
         return (
           <div className={classes.cardStyle}>
             {/* onClick={() => showModal(item)} */}
