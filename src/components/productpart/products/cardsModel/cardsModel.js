@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { Modal, Button } from "antd";
+import React, { useState } from "react";
+import { Modal } from "antd";
 import "./modelcutom.css";
 import { ReactComponent as Cart } from "./../cart/cartasset/cart-minus.svg";
 import classes from "./cardsModel.module.css";
 import cardComclasses from './../cardsCom.module.css'
-import { Link } from "react-router-dom";
 import Gallery from "./../cardsModel/galleryPic/galleryPic";
 
 const CardsModel = (props) => {
@@ -26,21 +25,21 @@ const CardsModel = (props) => {
     active
   } = props;
   console.log(drawercallback)
-  const [show, setShow] = useState(false);
-  const tab1Active = () => {
-    setShow(true);
-  };
-  const  increment = (index) => {
-    let pushFinalproduct = []
-    if(modelItemIndex === index){
-      item.counter += 1; 
-      console.log(item)
-      pushFinalproduct.push(item)
-      setDraweritem(pushFinalproduct)
-    }
-  }
-  console.log(draweritem  ? draweritem : "")
-  const decrement = (index) => {
+  // const [show, setShow] = useState(false);
+  // const tab1Active = () => {
+  //   setShow(true);
+  // };
+  // const  increment = (index) => {
+  //   let pushFinalproduct = []
+  //   if(modelItemIndex === index){
+  //     item.counter += 1; 
+  //     console.log(item)
+  //     pushFinalproduct.push(item)
+  //     setDraweritem(pushFinalproduct)
+  //   }
+  // }
+  // console.log(draweritem  ? draweritem : "")
+  // const decrement = (index) => {
     // console.log(index)
     // let pushFinalItem = []
     // if(modelItemIndex === index){
@@ -72,7 +71,7 @@ const CardsModel = (props) => {
     // console.log(pushFinalItem,"fff")
     // setDraweritem(pushFinalItem)
     
-  }
+  // }
   // const getCardClass = (index) => {
   //   console.log(isActive)
   //   console.log(index);
