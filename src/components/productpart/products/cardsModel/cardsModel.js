@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Modal } from "antd";
 import "./modelcutom.css";
 import { ReactComponent as Cart } from "./../cart/cartasset/cart-minus.svg";
@@ -13,18 +13,18 @@ const CardsModel = (props) => {
     visible,
     setvisible,
     item,
-    draweritem,
-    setDraweritem,
+    // draweritem,
+    // setDraweritem,
     modelItemIndex,
     decrementFun,
-    drawercallback,
+    // drawercallback,
     Draweritem,
     getCardClass,
     itemNumberFun,
     getCardClass1,
     active
   } = props;
-  console.log(drawercallback)
+  // console.log(drawercallback)
   // const [show, setShow] = useState(false);
   // const tab1Active = () => {
   //   setShow(true);
